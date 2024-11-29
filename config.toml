@@ -1,0 +1,84 @@
+baseURL = 'https://blog.imangry.xyz/'
+languageCode = 'zh-CN'
+timeZone = 'Asia/Shanghai'
+title = 'stevenash0822 の blog'
+
+# 主题
+theme = "hello-friend"
+summaryLength = 140
+hasCJKLanguage = true
+# 每页显示的文章数量用于分页
+paginate =  10
+# rss 输出数量
+rssLimit = 5
+
+[permalinks]
+  posts = "/posts/:filename/"
+  tags = "/tags/:slug/"
+
+[menu]
+  [[menu.main]]
+  name="读书"
+  url="/posts/reading/"
+  weight="1"
+  [[menu.main]]
+  name="便签"
+  url="/posts/chat/"
+  weight="2"
+  [[menu.main]]
+  name="归档"
+  url="/archives/"
+  weight="3"
+  [[menu.main]]
+  name="关于我"
+  url="/about/"
+  weight="4"
+  [[menu.main]]
+  name="🔍"
+  url="/search/"
+  weight="5"
+
+
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # "light" or "dark"
+  defaultTheme = "light"
+  # if you set this to 0, only submenu trigger will be visible
+  # showMenuItems = 4
+  # Enable to show reading time in minutes for posts
+  showReadingTime = true
+  logoText = "I'm angry"
+
+  MenuMore = "更多"
+  DateFormatList = "2006-01-02"
+  DateFormatSingle = "2006-01-02"
+  ReadMore = "阅读全文"
+  
+  description = "xxx"
+	keywords = "xxxxx"
+ 
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+    
+[outputs]
+  home = ["Atom", "HTML","JSON"] # <domain>/atom.xml
+  page = ["HTML"]
+  
+[outputFormats.Atom]
+  mediatype = "application/rss"
+  baseName = "atom"
+
+[params.twikoo]
+	# TODO: reopen twikoo
+  enable = false
+  visitor = true
+  
