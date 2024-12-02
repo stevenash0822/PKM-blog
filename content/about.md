@@ -32,8 +32,8 @@ INTP
 ### 博客程序
 
 - 博客架构：[https://gohugo.io](https://gohugo.io)
-- 博客主题：
-- 博客方案：
+- 博客主题：placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder 
+- 博客方案：placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder 
 - 本站源码：
 
 如果你想要克隆我的博客，请看这里:
