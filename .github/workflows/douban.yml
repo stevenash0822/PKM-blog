@@ -1,8 +1,10 @@
 # .github/workflows/douban.yml
 name: douban
 on: 
+  workflow_dispatch: 
+
   schedule:
-  - cron: "0 0,0,12,23 * * *"
+  - cron: "0 6 * * *"
   watch:
     types: [started]
 
@@ -17,7 +19,7 @@ jobs:
     - name: movie
       uses: lizheming/doumark-action@master
       with:
-        id: 儒雅随和神乐酱
+        id: 237542649
         type: movie
         format: csv
         dir: ./data/douban
@@ -25,7 +27,7 @@ jobs:
     - name: book
       uses: lizheming/doumark-action@master
       with:
-        id: 儒雅随和神乐酱
+        id: 237542649
         type: book
         format: csv
         dir: ./data/douban
