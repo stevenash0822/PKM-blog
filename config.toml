@@ -79,6 +79,6 @@ rssLimit = 5
 
 [params.twikoo]
 	# TODO: reopen twikoo
-  enable = false
+  enable = true
   visitor = true
   
