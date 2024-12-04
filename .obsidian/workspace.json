@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "4a6b6fb994ecab3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "449b76fec13774d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "568387193dbede10",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3433b3f2a01b965b",
+    "type": "split",
+    "children": [
+      {
+        "id": "35af407766a58fa1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df02d28e638bc03c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "09422a0fc23a9614",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "83541963f2039368",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d9ac81a353ecc2a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d10b180e46a0dff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "057bb8adb928b157",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd3926eb53910d04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "20e10de5c691c889",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a8306ed77e0d9ff6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "668cbd0e3c1b336e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "668cbd0e3c1b336e",
+  "lastOpenFiles": [
+    "Templates/template_post.md",
+    "content/posts/a's'd'f.md",
+    "content/posts/chat/20241104231557.md",
+    "content/posts/chat/_index.md",
+    "content/posts/reading/book-isbn-9787111501794.md",
+    "content/posts/qwer.md",
+    "content/search.md",
+    "Templates",
+    "content/tags/_index.md"
+  ]
+}
