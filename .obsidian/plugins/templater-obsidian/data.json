@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Templates",
+  "templates_folder": "static/templates",
   "templates_pairs": [
     [
       "",
@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "content/posts",
-      "template": "Templates/template_post.md"
+      "template": "static/templates/template_post.md"
     }
   ],
   "syntax_highlighting": true,

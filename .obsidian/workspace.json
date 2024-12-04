@@ -117,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "static/templates.md"
+              }
             }
           },
           {
@@ -148,9 +150,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "668cbd0e3c1b336e",
+  "active": "83541963f2039368",
   "lastOpenFiles": [
-    "Templates/template_post.md",
+    "static/douban/movie.csv",
+    "static/douban/book.csv",
+    "static/douban",
+    "static/templates",
+    "static/templates.md",
+    "static/templates/template_post.md",
     "content/posts/a's'd'f.md",
     "content/posts/chat/20241104231557.md",
     "content/posts/chat/_index.md",
