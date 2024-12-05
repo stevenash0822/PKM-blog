@@ -2,7 +2,7 @@
   "trashOption": "system",
   "alwaysUpdateLinks": true,
   "userIgnoreFilters": null,
-  "attachmentFolderPath": "static/addons",
+  "attachmentFolderPath": "static/images",
   "newFileLocation": "folder",
   "newFileFolderPath": "content/posts",
   "showFrontmatter": true,

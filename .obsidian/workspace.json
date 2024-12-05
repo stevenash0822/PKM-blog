@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "449b76fec13774d2",
+        "id": "3732487dc493f3dc",
         "type": "tabs",
         "children": [
           {
-            "id": "568387193dbede10",
+            "id": "69af1863d3317242",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -34,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"type\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,8 +59,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -117,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "static/templates.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,20 +147,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "83541963f2039368",
+  "active": "69af1863d3317242",
   "lastOpenFiles": [
+    "content/posts/reading/book-isbn-9787111501794.md",
+    "content/posts/reading/_index.md",
+    "content/posts/obsidian-hugo-cloudflare.md",
+    "content/search.md",
+    "themes/hello-friend/layouts/_default/list.html.html",
+    "themes/hello-friend/layouts/_default/index.html",
+    "content/archives/xzc.md",
+    "content/about.md",
+    "content/posts/_index.md",
+    "static/templates/template_post.md",
+    "static/templates.md",
     "static/douban/movie.csv",
     "static/douban/book.csv",
     "static/douban",
     "static/templates",
-    "static/templates.md",
-    "static/templates/template_post.md",
     "content/posts/a's'd'f.md",
     "content/posts/chat/20241104231557.md",
     "content/posts/chat/_index.md",
-    "content/posts/reading/book-isbn-9787111501794.md",
     "content/posts/qwer.md",
-    "content/search.md",
     "Templates",
     "content/tags/_index.md"
   ]

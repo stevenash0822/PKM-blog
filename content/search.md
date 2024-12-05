@@ -1,6 +1,6 @@
 ---
-title: "Search Results"
+title: Search Results
 sitemap:
-  priority : 0.1
-layout: "search"
+  priority: 0.1
+layout: search
 ---

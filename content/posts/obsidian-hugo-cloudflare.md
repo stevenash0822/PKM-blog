@@ -1,11 +1,13 @@
 ---
 title: tmp
-tags: [tag1, tag2]
+tags:
+  - tag1
+  - tag2
 date: 2023-03-11
 draft: false
 hideInList: false
 isTop: false
-feature: 
+feature:
 ---
 
 test1 content

@@ -1,8 +1,7 @@
 ---
-title: '关于我'
+title: 关于我
 date: 2024-11-29
-layout: 'posts'
-hideInList: false
+layout: posts
 ---
 
 > xxxxxxxxxx
