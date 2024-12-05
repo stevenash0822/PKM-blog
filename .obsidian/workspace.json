@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3732487dc493f3dc",
+        "id": "c1a83a407bee03f1",
         "type": "tabs",
         "children": [
           {
-            "id": "69af1863d3317242",
+            "id": "360ac8a59166745d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -34,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"type\"]",
+                "query": "[\"date\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -147,26 +148,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "69af1863d3317242",
+  "active": "360ac8a59166745d",
   "lastOpenFiles": [
+    "static/templates/template_post.md",
+    "content/about.md",
     "content/posts/reading/book-isbn-9787111501794.md",
-    "content/posts/reading/_index.md",
-    "content/posts/obsidian-hugo-cloudflare.md",
+    "content/posts/chat/20241104231557.md",
     "content/search.md",
+    "content/posts/obsidian-hugo-cloudflare.md",
+    "content/posts/chat/_index.md",
+    "content/_index.md",
+    "content/posts/reading/_index.md",
     "themes/hello-friend/layouts/_default/list.html.html",
     "themes/hello-friend/layouts/_default/index.html",
     "content/archives/xzc.md",
-    "content/about.md",
     "content/posts/_index.md",
-    "static/templates/template_post.md",
     "static/templates.md",
     "static/douban/movie.csv",
     "static/douban/book.csv",
     "static/douban",
     "static/templates",
     "content/posts/a's'd'f.md",
-    "content/posts/chat/20241104231557.md",
-    "content/posts/chat/_index.md",
     "content/posts/qwer.md",
     "Templates",
     "content/tags/_index.md"
