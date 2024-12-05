@@ -19,24 +19,28 @@ rssLimit = 5
 [menu]
   [[menu.main]]
   name="读书"
-  url="/posts/reading/"
+  url="/books/"
   weight="1"
+  [[menu.main]]
+  name="看剧"
+  url="/movies/"
+  weight="2"
   [[menu.main]]
   name="便签"
   url="/posts/chat/"
-  weight="2"
+  weight="3"
   [[menu.main]]
   name="归档"
   url="/archives/"
-  weight="3"
+  weight="4"
   [[menu.main]]
   name="关于我"
   url="/about/"
-  weight="4"
+  weight="5"
   [[menu.main]]
   name="🔍"
   url="/search/"
-  weight="5"
+  weight="6"
 
 
 
@@ -46,7 +50,7 @@ rssLimit = 5
   # "light" or "dark"
   defaultTheme = "light"
   # if you set this to 0, only submenu trigger will be visible
-  # showMenuItems = 4
+  # showMenuItems = 6
   # Enable to show reading time in minutes for posts
   showReadingTime = true
   logoText = "I'm angry"

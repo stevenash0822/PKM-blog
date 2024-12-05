@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c1a83a407bee03f1",
+        "id": "ef960a439e94b38c",
         "type": "tabs",
         "children": [
           {
-            "id": "360ac8a59166745d",
+            "id": "7bb3909e4789bad1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/about.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -80,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/about.md"
+              }
             }
           },
           {
@@ -148,17 +157,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "360ac8a59166745d",
+  "active": "7bb3909e4789bad1",
   "lastOpenFiles": [
-    "static/templates/template_post.md",
-    "content/about.md",
-    "content/posts/reading/book-isbn-9787111501794.md",
-    "content/posts/chat/20241104231557.md",
     "content/search.md",
-    "content/posts/obsidian-hugo-cloudflare.md",
+    "content/movies.md",
+    "content/books.md",
+    "content/about.md",
     "content/posts/chat/_index.md",
-    "content/_index.md",
     "content/posts/reading/_index.md",
+    "static/templates/template_post.md",
+    "content/posts/book-isbn-9787111501794.md",
+    "content/posts/chat/20241104231557.md",
+    "content/posts/obsidian-hugo-cloudflare.md",
+    "content/_index.md",
     "themes/hello-friend/layouts/_default/list.html.html",
     "themes/hello-friend/layouts/_default/index.html",
     "content/archives/xzc.md",
@@ -168,7 +179,6 @@
     "static/douban/book.csv",
     "static/douban",
     "static/templates",
-    "content/posts/a's'd'f.md",
     "content/posts/qwer.md",
     "Templates",
     "content/tags/_index.md"
