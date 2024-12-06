@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ef960a439e94b38c",
+        "id": "68d7743f554c47cc",
         "type": "tabs",
         "children": [
           {
-            "id": "7bb3909e4789bad1",
+            "id": "e6cc06a1110bbbba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/about.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +80,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +96,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +117,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/about.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,17 +148,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7bb3909e4789bad1",
+  "active": "e6cc06a1110bbbba",
   "lastOpenFiles": [
+    "content/posts/chat/20241104231557.md",
+    "content/posts/chat/_index.md",
+    "content/about.md",
     "content/search.md",
     "content/movies.md",
     "content/books.md",
-    "content/about.md",
-    "content/posts/chat/_index.md",
     "content/posts/reading/_index.md",
     "static/templates/template_post.md",
     "content/posts/book-isbn-9787111501794.md",
-    "content/posts/chat/20241104231557.md",
     "content/posts/obsidian-hugo-cloudflare.md",
     "content/_index.md",
     "themes/hello-friend/layouts/_default/list.html.html",
