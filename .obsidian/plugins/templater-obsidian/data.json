@@ -17,6 +17,10 @@
     {
       "folder": "content/posts",
       "template": "static/templates/template_post.md"
+    },
+    {
+      "folder": "content/posts/chat",
+      "template": "static/templates/template_chat.md"
     }
   ],
   "syntax_highlighting": true,

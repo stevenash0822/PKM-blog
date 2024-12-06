@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "68d7743f554c47cc",
+        "id": "bbcb27fb552338da",
         "type": "tabs",
         "children": [
           {
-            "id": "e6cc06a1110bbbba",
+            "id": "a66276d1ae90d810",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -148,8 +148,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e6cc06a1110bbbba",
+  "active": "a66276d1ae90d810",
   "lastOpenFiles": [
+    "content/posts/chat/少反思自己，多责怪别人.md",
+    "static/templates/template_chat.md",
+    "static/templates/template_post.md",
     "content/posts/chat/20241104231557.md",
     "content/posts/chat/_index.md",
     "content/about.md",
@@ -157,7 +160,6 @@
     "content/movies.md",
     "content/books.md",
     "content/posts/reading/_index.md",
-    "static/templates/template_post.md",
     "content/posts/book-isbn-9787111501794.md",
     "content/posts/obsidian-hugo-cloudflare.md",
     "content/_index.md",
