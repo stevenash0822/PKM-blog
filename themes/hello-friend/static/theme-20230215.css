@@ -1500,8 +1500,8 @@ photos .photo:last-child {
 .sort-by-item{margin-left:10px;padding:0 5px;line-height:20px}
 .sort-by-item.active{background:rgba(85,85,85,.1)}
 .sort-by-item svg{margin-right:5px}
-.sc-hKFxyN {width: 150px!important;height: 220px!important;display: flex;overflow: hidden}
-.sc-hKFxyN img{width:100%!important;height:auto!important;display:block!important;vertical-align:middle!important;object-fit: cover!important}
+/* .sc-hKFxyN {width: 150px!important;height: 220px!important;display: flex;overflow: hidden} */
+.sc-hKFxyN img{max-width:100%!important;object-fit: cover!important;display:block!important;vertical-align:middle!important}
 @media(min-width:1024px){
   .lg\:col-span-6{grid-column:span 6/span 6!important}
   .lg\:col-start-2{grid-column-start:2!important}
