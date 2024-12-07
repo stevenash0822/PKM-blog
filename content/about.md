@@ -7,7 +7,7 @@ layout: posts
 > Live Simple, love deep.
 
 ## 👨‍💻 关于我
-三十应该而立却还没有立住的 INTP 一枚
+三十而立却还没有立住的 INTP 一枚
 
 ## 🎱 兴趣爱好
 - 阅读 (一亿个字的网文阅读量，战术后仰)
@@ -16,14 +16,14 @@ layout: posts
 - 折腾 (正经人谁写日记呢)
 
 ## 📬 找到我
-- b 站：小破站过于隐私
+- b 站：[stevenash0822 の 小破站](https://space.bilibili.com/2147956)
 - b 乎：[stevenash0822 の 知乎主页](https://www.zhihu.com/people/stevenash0822)
-- 长跑主页：[stevenash0822 の Running Page](https://run.imangry.xyz/)
+- 长跑：[stevenash0822 の Running Page](https://run.imangry.xyz/)
 
 ## 📒 如何建站
-- 博客架构：[https://gohugo.io](https://gohugo.io)
-- 博客主题：[immmmm/themes/hello-friend at master · lmm214/immmmm · GitHub](https://github.com/lmm214/immmmm/tree/master/themes/hello-friend)
-- 博客源码：placeholder
+- 博客架构：[hugo](https://gohugo.io)
+- 主题来源：[immmmm/themes/hello-friend · GitHub](https://github.com/lmm214/immmmm/tree/master/themes/hello-friend), [lillian-who.github.io/themes/hello-friend · GitHub](https://github.com/lillian-who/lillian-who.github.io/tree/master/themes/hello-friend)
+- 博客源码：[stevenash0822/PKM-blog · GitHub](https://github.com/stevenash0822/PKM-blog)
 
 如果你想要克隆我的博客，请看这里:
 {{<link "我的建站方案">}}
