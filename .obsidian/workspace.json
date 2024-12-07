@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bbcb27fb552338da",
+        "id": "3fdae79dd6de5029",
         "type": "tabs",
         "children": [
           {
-            "id": "a66276d1ae90d810",
+            "id": "03b4ca908cc49a7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"date\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,17 +157,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a66276d1ae90d810",
+  "active": "03b4ca908cc49a7b",
   "lastOpenFiles": [
-    "content/posts/我的建站方案.md",
-    "content/posts/『谈美』- xxxxx.md",
-    "content/about.md",
+    "content/posts/1.png",
+    "content/posts/SCR-20240902-nxqg.png",
     "content/posts/chat/少反思自己，多责怪别人.md",
+    "content/posts/『谈美』- xxxxx.md",
+    "content/posts/www.baidu.com.md",
+    "static/images/SCR-20240902-nxqg.png",
+    "static/images",
+    "content/tags/_index.md",
+    "content/posts/chat/_index.md",
+    "content/posts/我的建站方案.md",
+    "content/about.md",
     "content/search.md",
     "static/templates/template_chat.md",
     "static/templates/template_post.md",
     "content/posts/chat/20241104231557.md",
-    "content/posts/chat/_index.md",
     "content/movies.md",
     "content/books.md",
     "content/posts/reading/_index.md",
@@ -182,7 +188,6 @@
     "static/douban",
     "static/templates",
     "content/posts/qwer.md",
-    "Templates",
-    "content/tags/_index.md"
+    "Templates"
   ]
 }

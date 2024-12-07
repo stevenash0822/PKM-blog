@@ -86,3 +86,7 @@ rssLimit = 5
   enable = true
   visitor = true
   
+# reference: https://typonotes.com/posts/2022/12/26/hugo-render-markdown-image-url/
+# 若使用静态目录管理附件，则附件内链需要去除工程目录 prefix 文件路径，若未使用静态目录，则注释下方
+[params.static_prefix]
+    name = "/static"
