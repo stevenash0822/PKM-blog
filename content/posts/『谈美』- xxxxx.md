@@ -8,10 +8,10 @@ toc: false
 feature:
 ---
 
-{{<douban "https://book.douban.com/subject/26838438/">}}
+{{< douban "https://book.douban.com/subject/26838438/" >}}
 
 placeholder
 
 <!--more-->
 
-
+sd

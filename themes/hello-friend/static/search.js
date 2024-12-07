@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   var fuseOptions = {
     shouldSort: true,
     includeMatches: true,
-    threshold: 0.0,
+    threshold: 0.3,  // reference: https://dnwzlx.com/posts/98850c88/
     tokenize: true,
     location: 0,
     distance: 100,
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         weight: 0.8
       },
       {
-        name: "summary",
+        name: "contents",
         weight: 0.5
       },
       {
