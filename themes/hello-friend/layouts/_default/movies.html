@@ -54,11 +54,11 @@
     });
   </script>
 <div class="lg:col-start-2 lg:col-span-6">
-  {{$items := getCSV "," "data/douban/movie.csv" }}
+  {{$items := getCSV "," "static/douban/movie.csv" }}
   <div class="sc-ksluID gFnzgG">
     <div class="sc-bdnxRM">
       <a href="javascript:void 0;" class="sc-gtsrHT kEoOHR" data-search="year" data-method="equal" data-value="">全部</a>
-      {{range $year := (seq now.Year -1 2012)}}
+      {{range $year := (seq now.Year -1 2020)}}
       <a href="javascript:void 0;" class="sc-gtsrHT dvtjjf" data-search="year" data-method="equal" data-value="{{$year}}">{{$year}}</a>
       {{end}}
     </div>
@@ -78,7 +78,14 @@
     <div class="sc-dIsUp fIuTG">
       {{range $idx,$item := $items}}
       {{if ne $idx 0}}
-        {{ $rating := float (index $item 6)}}
+        {{$rating := 0}}
+        {{if index $item 6 }}
+          {{ $rating = float (index $item 6) }}
+        {{end}}
+        {{$my_rating := 0}}
+        {{if index $item 8 }}
+          {{ $my_rating = float (index $item 8) }}
+        {{end}}
       <div 
         class="sc-gKAaRy dfdORB" 
         data-year="{{index $item 11}}" 
@@ -92,8 +99,12 @@
             </div>
           </div>
           <div class="sc-fujyAs eysHZq">
-            <div class="rating"><span class="allstardark"><span class="allstarlight" style="width:{{mul  10 $rating }}%"></span></span><span class="rating_nums">{{$rating}}</span></div>
+            <div class="rating"><span class="allstardark"><span class="allstarlight" style="width:{{mul  10 $rating }}%"></span></span><span class="rating_nums">{{$rating}} [豆瓣]</span></div>
           </div>
+          <div class="sc-fujyAs eysHZq">
+            <div class="rating"><span class="allstardark"><span class="allstarlight" style="width:{{mul  20 $my_rating }}%"></span></span><span class="rating_nums">{{$my_rating}} [我的]</span></div>
+          </div>
+          <span class="post-date">{{(index $item 11 | time.Format "2006-01-02" | default "2000-01-01") }}</span>
           <div class="sc-iCoGMd kMthTr"><a rel="link" href="{{ index $item 5 }}" target="_blank">{{ index $item 1 }}</a></div>
       </div>
       {{end}}

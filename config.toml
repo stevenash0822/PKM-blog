@@ -1,43 +1,50 @@
+# 需要个人适配的参数
 baseURL = 'https://blog.imangry.xyz/'
-languageCode = 'zh-CN'
-timeZone = 'Asia/Shanghai'
 title = 'stevenash0822 の blog'
 
-# 主题
+
+# 其他全局参数
 theme = "hello-friend"
 summaryLength = 140
 hasCJKLanguage = true
+languageCode = 'zh-CN'
+timeZone = 'Asia/Shanghai'
 # 每页显示的文章数量用于分页
-paginate =  10
+paginate = 10
 # rss 输出数量
 rssLimit = 5
+
 
 [permalinks]
   posts = "/posts/:filename/"
   tags = "/tags/:slug/"
 
+
 [menu]
   [[menu.main]]
   name="读书"
-  url="/posts/reading/"
+  url="/books/"
   weight="1"
+  [[menu.main]]
+  name="看剧"
+  url="/movies/"
+  weight="2"
   [[menu.main]]
   name="便签"
   url="/posts/chat/"
-  weight="2"
+  weight="3"
   [[menu.main]]
   name="归档"
   url="/archives/"
-  weight="3"
+  weight="4"
   [[menu.main]]
   name="关于我"
   url="/about/"
-  weight="4"
+  weight="5"
   [[menu.main]]
   name="🔍"
   url="/search/"
-  weight="5"
-
+  weight="6"
 
 
 [params]
@@ -46,16 +53,15 @@ rssLimit = 5
   # "light" or "dark"
   defaultTheme = "light"
   # if you set this to 0, only submenu trigger will be visible
-  # showMenuItems = 4
+  # showMenuItems = 6
   # Enable to show reading time in minutes for posts
   showReadingTime = true
-  logoText = "I'm angry"
 
+  # visualization
   MenuMore = "更多"
   DateFormatList = "2006-01-02"
   DateFormatSingle = "2006-01-02"
   ReadMore = "阅读全文"
-  
   description = "xxx"
 	keywords = "xxxxx"
  
@@ -68,17 +74,28 @@ rssLimit = 5
     endLevel = 3
     ordered = false
     startLevel = 1
-    
+
+ 
 [outputs]
   home = ["Atom", "HTML","JSON"] # <domain>/atom.xml
   page = ["HTML"]
   
+
 [outputFormats.Atom]
   mediatype = "application/rss"
   baseName = "atom"
 
+
+[params.static_prefix]
+  # reference: https://typonotes.com/posts/2022/12/26/hugo-render-markdown-image-url/
+  # 若使用静态目录管理附件，则附件内链需要去除工程目录 prefix 文件路径，若未使用静态目录，则注释下方
+  name = "/static"
+
+
 [params.twikoo]
-	# TODO: reopen twikoo
-  enable = false
+  enable = true
   visitor = true
-  
+  web_api_address = "https://jojo-twikoo.netlify.app/.netlify/functions/twikoo/"
+
+[params.cravatar]
+  email_address = "stevenash0822@126.com"

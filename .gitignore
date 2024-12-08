@@ -1,6 +1,4 @@
-public
-.obsidian
-_Templates
-发布目录.md
 .hugo_build.lock
 .DS_Store
+.obsidian/workspace.json
+.obsidian/plugins/remember-cursor-position/cursor-positions.json
